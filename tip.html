@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tip Calculator</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" style="text/css" href="tip1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body id="piche">
+  <div class="container mt-5" id="box0">
+    <div class="card border-warning mb-3" id="cardChange">
+      <div class="card-header"><strong>TIP CALCULATOR</strong></div>
+      <div class="card-body text-dark">
+        <h5 class="card-title">Enter The Bill</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p> -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">INR</span>
+            <!-- <span class="input-group-text">0.00</span> -->
+          </div>
+          <input type="text" class="form-control" id="enterBill1" aria-label="Amount (to the nearest dollar)"
+            placeholder="Enter the Amount">
+        </div>
+      </div>
+      <div class="card-body text-dark">
+        <h5 class="card-title">Number Of People</h5>
+        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p> -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Person</span>
+            <!-- <span class="input-group-text">0.00</span> -->
+          </div>
+          <!-- <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"> -->
+          <select class="custom-select" id="numOfPeople">
+            <option selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+          </select>
+
+
+        </div>
+        <div class="card-body text-dark">
+          <h5 class="card-title">Tip To Waiter</h5>
+          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p> -->
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Tip </span>
+              <!-- <span class="input-group-text">0.00</span> -->
+            </div>
+            <!-- <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"> -->
+            <select class="custom-select" id="tipToWaiter">
+
+              <option value="1">5%</option>
+              <option value="2">10%</option>
+              <option value="3">15%</option>
+              <option value="5">20%</option>
+              <option value="6">25%</option>
+              <option value="7">30%</option>
+              <option value="8">35%</option>
+              <option value="9">40%</option>
+              <option value="10">45%</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="container mt-2">
+          <button class="btn btn-primary" type="submit" onclick="evaluateTip()">Calculate</button>
+          <button class="btn btn-dark" type="submit" id="clearAll" onclick="remove1()">Clear</button>
+        </div>
+
+        <!-- calculator end -->
+        <div class="flex-box-container-1">
+          <div id="flex-box-result"></div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="tip2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

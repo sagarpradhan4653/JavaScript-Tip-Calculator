@@ -1,0 +1,57 @@
+#piche{
+    background-color:blue ;
+
+
+}
+
+#cardChange{
+    height: 600px;
+    font-size: larger;
+    text-align: center;
+}
+
+
+#box0 {
+    height: 600px;
+    width: 360px;
+    margin: 100px auto;
+    background: darkslategrey;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+  
+.btn {
+    margin: 5%;
+}
+
+ #flex-box-result{
+     text-align: center;
+
+ }
+
+/* #totalTips {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #totalTips:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTips sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #totalTips small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  } */
